@@ -1,2 +1,2 @@
 # Self-Driving-Car
-This repo contains code for a complete self driving car project implemented on RC-car
+This repo contains code for a complete self driving car project implemented on RC-car. Developed a Self Driving Car using ANN as the controlling model. The ANN first needs to be trained by manually driving the RC-car through the PC which sends control signals using Arduino to the car. The car is continuously sending live video stream through sockets. The ANN model reads the users input corresponding to the frame that is has received and trains the model and stores the weights as a XML file that is used in self driving mode. This project involved AI, CV, ML and Deep Learning along with Embedded Systems.
